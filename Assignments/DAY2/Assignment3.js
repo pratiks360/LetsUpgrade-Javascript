@@ -1,0 +1,12 @@
+var today = new Date();
+var date = today.getDate();
+var month= today.getMonth()+1; 
+var year = today.getFullYear();
+var calendar= month+'-'+date+'-'+year;
+console.log(calendar);
+calendar = month+'/'+date+'/'+year;
+console.log(calendar);
+calendar= date+'-'+month+'-'+year;
+console.log(calendar);
+calendar = date+'/'+month+'/'+year;
+console.log(calendar);
